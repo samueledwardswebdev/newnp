@@ -1,0 +1,39 @@
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.7rem 1.2rem;
+  border-radius: 0.5rem;
+  box-shadow: var(--shadow);
+  transition: var(--hover-transition);
+}
+
+.btn:hover {
+  transform: translateY(-0.5rem);
+}
+
+.btn-primary {
+  color: var(--white-color);
+  background: var(--red-color);
+}
+
+.btn-outline {
+  color: var(--orange-color);
+  border: solid 3px var(--orange-color);
+  background: none;
+}
